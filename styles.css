@@ -1,1 +1,24 @@
-
+* {
+    padding: 0;
+    margin: 0;
+    color: #FFD9FF;
+    font-family: 'Ubuntu', sans-serif;
+    background: #04134E;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 56px;
+  }
+  
+  p {
+    font-size: 28px;
+  }
+  
+  canvas {
+    background: #735000;
+    display: block;
+    margin: 20px auto;
+    margin-top: 20px;
+  }
