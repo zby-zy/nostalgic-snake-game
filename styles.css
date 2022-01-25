@@ -1,9 +1,9 @@
 * {
     padding: 0;
     margin: 0;
-    color: #FFD9FF;
+    color: #dfe3ee;
     font-family: 'Ubuntu', sans-serif;
-    background: #04134E;
+    background: #343645;
     text-align: center;
     margin-top: 20px;
   }
@@ -17,7 +17,7 @@
   }
   
   canvas {
-    background: #735000;
+    background: #a0c607;
     display: block;
     margin: 20px auto;
     margin-top: 20px;
