@@ -37,7 +37,6 @@ var debug = {
     }, false);
   
     function game() {
-  
       var snake = createSnake(speed);
       var food = createFood(canvas.width, canvas.height, "#EDE916");
       var candy = createCandy(canvas.width, canvas.height)
@@ -73,7 +72,6 @@ var debug = {
           default:
         }
       }
-  
       function play() {
         fps++;
         ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -94,7 +92,6 @@ var debug = {
           }
           scores.incr(1);
         }
-  
         if (candy.active && snake.isEating(candy.x, candy.y)) {
           candy.active = false;
           snake.grow();
@@ -111,12 +108,10 @@ var debug = {
         } else {
           anim = window.requestAnimationFrame(play);
         }
-  
         debug.x = snake.x;
         debug.y = snake.y;
         debug.food = [food.x, food.y];
       }
-      
       interval = setInterval(function() {
         countFPS.innerText = ''+ fps;
         fps = 0;
@@ -125,13 +120,11 @@ var debug = {
       food.spawn(snake.x, snake.y);
       anim = window.requestAnimationFrame(play);
     }
-  
     function createCandy(width, height) {
       var _candy = createFood(width, height, "#ED0916");
       _candy.active = false;
       return _candy;
     }
-  
     function createFood(width, height, color) {
       return {
         x: 0,
@@ -156,7 +149,6 @@ var debug = {
                 free.push([i, j]);
             }
           }
-  
           foodPos = Math.floor(Math.random() * free.length);
           this.x = free[foodPos][1] * 10;
           this.y = free[foodPos][0] * 10;
@@ -170,7 +162,6 @@ var debug = {
         }
       }
     }
-  
     function createSnake(speed) {
       
       function unshiftAndCut(arr) {
@@ -181,7 +172,6 @@ var debug = {
           return arr[i - 1];
         });
       }
-      
       return {
         x: [0],
         y: [0],
@@ -254,7 +244,6 @@ var debug = {
         }
       }
     }
-    
     function createScores() {
       var best = 0,
         score;
