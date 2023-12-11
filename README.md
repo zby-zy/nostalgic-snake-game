@@ -1,22 +1,32 @@
-# Snake Game
-
-<img src="https://user-images.githubusercontent.com/85934122/151355320-5e3e692b-cf87-4f54-90b7-e8b9523b9a6c.jpg" width="300">
-Snake’s story begins long before it found a mass audience with Nokia. It was first created as a concept in 1976 under the name of Blockage, and was a monochromatic two-player arcade game developed by video games company, Gremlin Interactive. Similar to what would soon become Snake, it involved pressing arrow keys to move each character, wherein players would leave a solid trail behind them wherever they turned. To win, the player had to last the longest without hitting anything else. This game inspired numerous iterations, such as the arcade game Bigfoot Bonkers that year; more similar concepts in 1977 by the then-leading video games company Atari; a computer-based version called Worm, programmed in 1978; and a single-player arcade game named Nibbler in 1982. 
-<a href="https://www.itsnicethat.com/features/taneli-armanto-the-history-of-snake-design-legacies-230221" target="_blank">See more...<br>
-  
-
 # Nostalgic Snake Game
- 
- 
-## Before starting the game
-  
-<img src="https://user-images.githubusercontent.com/85934122/151030678-53fcd80a-e2a9-462a-8d7c-73b0c347fbbf.PNG" width="400">
-<br>
-<br>  
 
-## Playing the game
+![image](https://github.com/zby-zy/nostalgic-snake-game/assets/85934122/9456431d-36ce-41a9-b6ed-d3324694e652)
+Welcome to the Nostalgic Snake Game – a journey back to the simplicity and joy of childhood gaming!
+## Overview
+Welcome to the Nostalgic Snake Game, a beloved classic that likely holds a special place in your childhood memories. This timeless game offers a simple yet captivating experience where you guide a snake across a grid, devouring food to grow longer while avoiding collisions with the snake's body and the grid boundaries.
+
+
   
 <img src="https://user-images.githubusercontent.com/85934122/151107919-5fcd5817-c715-47f0-bef9-c5daafb21524.PNG" width="400">
 
+## How to Play
+<b>1. Controls:</b> Navigate the snake using arrow keys or the designated controls.
 
+<b>2. Objective:</b> Consume food to grow longer without colliding with the snake's body or the grid boundaries.
+
+<b>3. Scoring:</b> Challenge yourself to achieve the highest score by strategically eating and avoiding collisions.
+
+## Installation
+Get started by cloning the repository and opening the `index.html` file in your preferred web browser. Relive the magic of your childhood gaming days!
+
+```bash
+git clone https://github.com/your-username/nostalgic-snake-game.git
+cd nostalgic-snake-game
+```
+
+## Contribution
+Feel free to contribute to enhance the gameplay, introduce new features, or fix any bugs. Fork the repository, make your improvements, and submit a pull request – let's make this childhood favorite even better!
+
+## License
+This project is licensed under the [MIT License](https://github.com/zby-zy/nostalgic-snake-game/blob/main/LICENSE). Enjoy the nostalgia, and happy gaming! 🐍
 
